@@ -10,3 +10,4 @@ cypress/logs
 dist
 .nyc_output
 coverage
+todomvc/data.json
