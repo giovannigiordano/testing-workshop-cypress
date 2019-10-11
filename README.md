@@ -13,14 +13,14 @@ In order to get the code and install dependencies
 ```bash
 git clone git@github.com:giovannigiordano/testing-workshop-cypress.git
 cd testing-workshop-cypress
-yarn install
+npm install
 ```
 
 If necessary, install dependencies inside TodoMVC folder
 
 ```bash
 cd todomvc
-yarn install
+npm install
 ```
 
 ### Quick check ✅
@@ -29,7 +29,7 @@ You can test the installation by starting TodoMVC in the first terminal window
 
 ```shell
 cd todomvc
-yarn start
+npm start
 ```
 
 and you should see in the terminal
@@ -51,12 +51,12 @@ and you should see in the terminal
   http://localhost:3000
 ```
 
-Note for Windows users: if `yarn start` throws an error, it is probably due to `cd todomvc; ...` first command in the `yarn start `script. In this case change the working folder to "todomvc" and run `yarn start` from there.
+Note for Windows users: if `npm start` throws an error, it is probably due to `cd todomvc; ...` first command in the `npm start `script. In this case change the working folder to "todomvc" and run `npm start` from there.
 
 From the second terminal window you should be able to open Cypress with
 
 ```bash
-$ yarn cy:open
+$ npm run cy:open
 
 > testing-workshop-cypress@1.0.0 cy:open /git/testing-workshop-cypress
 > cypress open
@@ -67,7 +67,7 @@ $ yarn cy:open
 You can use the installed [start-server-and-test](https://github.com/bahmutov/start-server-and-test) utility to start the app, open Cypress and then shutdown the app when you exit Cypress.
 
 ```bash
-$ yarn dev
+$ npm dev
 ```
 
 ## Slides 🖥
